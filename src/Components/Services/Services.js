@@ -13,19 +13,19 @@ const Services = () => {
         <h2>¡Tu cumpleaños o evento como a vos te guste!</h2>
         <div className="cards-serv">
           <div className="card">
-            <img src={Wsp} className="wsp-img" />
+            <img src={Wsp} className="wsp-img" alt='' />
             <p>Atención inmediata por Whatsapp</p>
           </div>
           <div className="card">
-            <img src={Cake} className="wsp-img" />
+            <img src={Cake} className="wsp-img" alt=''/>
             <p>Atención inmediata por Whatsapp</p>
           </div>
           <div className="card">
-            <img src={Buy} className="wsp-img" />
+            <img src={Buy} className="wsp-img" alt=''/>
             <p>Atención inmediata por Whatsapp</p>
           </div>
           <div className="card">
-            <img src={Delivery} className="wsp-img" />
+            <img src={Delivery} className="wsp-img" alt=''/>
             <p>Atención inmediata por Whatsapp</p>
           </div>
         </div>
