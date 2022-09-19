@@ -13,7 +13,7 @@ const About = () => {
           repostería. Con un amplio surtido de productos para carnaval,
           cumpleaños infantiles, bautismos, halloween, pascuas, fiestas
           navideñas, quinces, etc. A base de mucho esfuerzo y esmero, sigue hoy
-          más vigente que nunca ofreciendo los mejores precios y la mayor
+          más vigente que nuncreciendo los mejores precios y la mayor
           calidad del mercado.
         </p>
       </div>
