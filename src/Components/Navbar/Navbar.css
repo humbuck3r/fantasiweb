@@ -1,7 +1,21 @@
+.me-auto {
+    display: flex;
+    align-items: baseline;
+    margin-right: 0px;
+    
+}
+
 .btn-nav {
     width: 192px;
     height: 62px;
-
-    background: #f89834;
+    background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
     border-radius: 31px;
+}
+
+.btn-nav > h2 {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 33px;
+    color: #ffffff;
 }
