@@ -1,14 +1,13 @@
 import React from "react";
 import "./Products.css";
-import Img from "../../Assets/Img/cupcake.png";
-
+import Sliprod from "../Slider-prod/Slider-prod"; 
 const Products = () => {
   return (
     <div className="container-prod">
       <h1 className="title-prod">NUESTROS PRODUCTOS</h1>
 
       <div className="subcontainer-prod">
-        <img src={Img} />
+        <Sliprod/>
         <div className="content-prod">
           <p>
             Contamos con un amplio surtido en productos, abarcando carnaval,

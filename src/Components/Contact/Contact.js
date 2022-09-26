@@ -10,10 +10,10 @@ const Contact = () => {
         <div>
             <div><h1>visitanos en nuestra tienda</h1>
             <Map 
-            googleMapURL = {mapURL}
-            containerElement= {<div style={{height : '400px'}}/>}
-            mapElement = {<div style={{height:'100%'}}/>}
-            loadingElement = {<p>Cargando</p>}
+            //googleMapURL = {mapURL}
+            //containerElement= {<div style={{height : '400px'}}/>}
+            //mapElement = {<div style={{height:'100%'}}/>}
+            //loadingElement = {<p>Cargando</p>}
             
             /></div>
         </div>

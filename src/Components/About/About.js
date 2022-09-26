@@ -3,7 +3,7 @@ import Logo from "../../Assets/Img/Fantasy - logo 1.png";
 import "./About.css";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about ">
       <img src={Logo} alt="" />
       <h1>SOBRE NOSOTROS</h1>
       <p>
