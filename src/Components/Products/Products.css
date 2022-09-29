@@ -1,0 +1,14 @@
+.container-prod{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.subcontainer-prod{
+    display: flex;
+    flex-direction: row;
+}
+.btn-prod{
+    background: linear-gradient(90deg, #FE8C00 0%, #F83600 100%);
+border-radius: 31px;
+}

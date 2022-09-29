@@ -8,7 +8,7 @@ import Delivery from '../../Assets/Img/delivery card.png';
 
 const Services = () => {
     return (
-      <div className="serv">
+      <div className="serv ">
         <h1>NUESTROS SERVICIOS</h1>
         <h2>¡Tu cumpleaños o evento como a vos te guste!</h2>
         <div className="cards-serv">

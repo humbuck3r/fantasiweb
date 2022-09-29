@@ -4,7 +4,6 @@ import Slider from './Components/Slider/Slider';
 import Services from './Components/Services/Services';
 import Products from './Components/Products/Products';
 import About from './Components/About/About';
-import Contact from './Components/Contact/Contact';
 import Footer from './Components/Footer/Footer';
 
 
@@ -16,8 +15,7 @@ function App() {
       <Services/>
       <Products/>
       <About/>
-      <Contact/>
-      <Footer/>
+      <Footer/>     
     </div>
   );
 }

@@ -3,9 +3,9 @@ import Logo from "../../Assets/Img/Fantasy - logo 1.png";
 import "./About.css";
 const About = () => {
   return (
-    <div className="about">
+    <div className="about ">
       <img src={Logo} alt="" />
-      <h1>SOBRE NOSOTROS</h1>
+      <h1>SOBRE NOSOTROS test</h1>
       <p>
         Fantasi es una empresa familiar que nace a mediados de 2007. Actualmente
         cuenta con un local dedicado a la venta de cotillón y repostería. Con un
