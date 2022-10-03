@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className="about ">
       <img src={Logo} alt="" />
-      <h1>SOBRE NOSOTROS</h1>
+      <h1 className="title">SOBRE NOSOTROS</h1>
       <p>
         Fantasi es una empresa familiar que nace a mediados de 2007. Actualmente
         cuenta con un local dedicado a la venta de cotillón y repostería. Con un
