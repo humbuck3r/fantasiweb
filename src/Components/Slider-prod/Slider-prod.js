@@ -3,40 +3,22 @@ import Img from '../../Assets/Img/rich.jpg';
 import Lede from '../../Assets/Img/ledevit.png';
 import Choco from '../../Assets/Img/chocolart.jpg'
 import Carousel from 'react-bootstrap/Carousel';
-
+import './Slider-prod.css'; 
 
 function Sliprod() {
   return (
     <Carousel variant="dark">
       <Carousel.Item active>
-        <img
-          className="d-block w-100"
-          src={Img}
-          alt="First slide"
-        />
-        <Carousel.Caption>
-       
-        </Carousel.Caption>
+        <img className="img-slide d-block" src={Img} alt="First slide" />
+        <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item active>
-        <img
-          className="d-block w-100"
-          src={Lede}
-          alt="Second slide"
-        />
-        <Carousel.Caption>
-        
-        </Carousel.Caption>
+        <img className="img-slide d-block" src={Lede} alt="Second slide" />
+        <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item active>
-        <img
-          className="d-block w-100"
-          src={Choco}
-          alt="Third slide"
-        />
-        <Carousel.Caption>
-         
-        </Carousel.Caption>
+        <img className=" img-slide d-block" src={Choco} alt="Third slide" />
+        <Carousel.Caption></Carousel.Caption>
       </Carousel.Item>
     </Carousel>
   );
