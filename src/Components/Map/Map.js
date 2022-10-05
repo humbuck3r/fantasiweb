@@ -1,19 +1,19 @@
-//import React from 'react';
+import React, { Component } from "react";
+import GoogleMaps from 'simple-react-google-maps';
 
-//import{
-//    GoogleMap,
-//    withScriptjs,
-//    withGoogleMap
-//} from 'react-google-maps';
-
-//const Map = (props) =>{
-//    return(
- //       <GoogleMap defaultZoom={10} defaultCenter = {{lat : -34.397, long :150.644}}/>
- //   );
-//};
-
-//export default withScriptjs(
-//    withGoogleMap(
-
-//    )
-//)
+export default class Maps extends Component {
+  render() {
+    return (
+      <div className="title">
+        <h1>VISITANOS EN NUESTRA TIENDA</h1>
+        <GoogleMaps
+            style={{height:"664px",width:"100%"}}
+          apiKey={"AIzaSyCXK_c_Q7Dt9IMMcwFz9U2tTuL6cFJh07E"}
+          zoom={18}
+          center={{ lat: -32.92895557320445, lng: -68.85619741502785 }}
+          markers= {{lat: -32.92895557320445, lng: -68.85619741502785}}
+        />
+      </div>
+    );
+  }
+}
