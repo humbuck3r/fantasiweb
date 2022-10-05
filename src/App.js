@@ -5,7 +5,7 @@ import Services from './Components/Services/Services';
 import Products from './Components/Products/Products';
 import About from './Components/About/About';
 import Footer from './Components/Footer/Footer';
-
+import Maps from './Components/Map/Map';
 
 function App() {
   return (
@@ -15,7 +15,8 @@ function App() {
       <Services/>
       <Products/>
       <About/>
-      <Footer/>     
+      <Maps/>   
+      <Footer/>  
     </div>
   );
 }
