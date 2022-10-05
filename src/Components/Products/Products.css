@@ -1,12 +1,13 @@
 .container-prod{
     display: flex;
     flex-direction: column;
-    
+    font-family: 'Baloo Da 2';
 }
 
 .subcontainer-prod{
     display: flex;
     flex-direction: row;
+    font-family: 'Poppins';
 }
 .btn-prod{
     background: linear-gradient(90deg, #FE8C00 0%, #F83600 100%);
