@@ -9,8 +9,8 @@ import Delivery from '../../Assets/Img/delivery card.png';
 const Services = () => {
     return (
       <div className="serv ">
-        <h1>NUESTROS SERVICIOS</h1>
-        <h2>¡Tu cumpleaños o evento como a vos te guste!</h2>
+        <h1 className='title'>NUESTROS SERVICIOS</h1>
+        <h2 className='text'>¡Tu cumpleaños o evento como a vos te guste!</h2>
         <div className="cards-serv">
           <div className="card">
             <img src={Wsp} className="wsp-img" alt='' />
