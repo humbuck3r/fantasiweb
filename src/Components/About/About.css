@@ -18,13 +18,13 @@
     font-weight: 800;
     font-family: 'Baloo Da 2';
     margin-bottom: 2.5%;
-    font-size: 60px;
+    font-size: 40px;
 }
 .text{
     color: black;
     font-weight: 400;
     font-family: 'Poppins';
-    line-height: 1.6;
+    line-height: 1.6rem;
     white-space: normal;
     text-align: center;
     font-size: 20px;

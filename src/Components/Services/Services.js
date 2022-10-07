@@ -9,8 +9,8 @@ import Delivery from '../../Assets/Img/delivery card.png';
 const Services = () => {
     return (
       <div className="serv ">
-        <h1>NUESTROS SERVICIOS</h1>
-        <h2>¡Tu cumpleaños o evento como a vos te guste!</h2>
+        <h1 className='title-serv'>NUESTROS SERVICIOS</h1>
+        <h2 className='text-serv'>¡Tu cumpleaños o evento como a vos te guste!</h2>
         <div className="cards-serv">
           <div className="card">
             <img src={Wsp} className="wsp-img" alt='' />
@@ -18,15 +18,15 @@ const Services = () => {
           </div>
           <div className="card">
             <img src={Cake} className="wsp-img" alt=''/>
-            <p>Atención inmediata por Whatsapp</p>
+            <p>¡Personalizá todo lo que necesites!</p>
           </div>
           <div className="card">
             <img src={Buy} className="wsp-img" alt=''/>
-            <p>Atención inmediata por Whatsapp</p>
+            <p>¡Pagá como quieras desde donde estés!</p>
           </div>
           <div className="card">
             <img src={Delivery} className="wsp-img" alt=''/>
-            <p>Atención inmediata por Whatsapp</p>
+            <p>Te llevamos el pedido a tu hogar</p>
           </div>
         </div>
       </div>
