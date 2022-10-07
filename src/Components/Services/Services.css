@@ -7,28 +7,50 @@
     font-family: 'Baloo Da 2';
     
     
+    
 }
+.title-serv{
+    color: black;
+    font-weight: 800;
+    font-family: 'Baloo Da 2';
+    margin-bottom: 0.5rem;
+    font-size: 40px;
+    
+}
+.text-serv{
+    color: black;
+    font-weight: 400;
+    font-family: 'Poppins';
+    line-height: 1.6rem;
+    text-align: center;
+    font-size: 20px;
 
+}
 
 .cards-serv {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin: 10rem;
+    
+    
     
 }
 
 .card {
     width: 253px;
-    height: 248px;
+    height: 260px;
     border: 1px solid #f5f5f5;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 11px;
     display: flex;
-    justify-content: center ;
+    justify-content: center;
     align-items: center;
-    margin-top: 10%;
-    text-align: center;
+    overflow: hidden;
+    padding: 3rem;
+    
+    
     
 }
 .wsp-img{
