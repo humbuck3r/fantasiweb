@@ -6,7 +6,8 @@ import Slider3 from "../../Assets/Img/Slider3.png"
 
 function Slider() {
   return (
-    <Carousel>
+    <div className="slide">
+    <Carousel >
       <Carousel.Item>
         <img
           className="d-block w-100"
@@ -40,6 +41,7 @@ function Slider() {
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
+    </div>
   );
 }
 

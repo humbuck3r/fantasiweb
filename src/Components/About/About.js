@@ -4,7 +4,7 @@ import "./About.css";
 const About = () => {
   return (
     <div className="about ">
-      <img className="image-logo" src={Logo} alt="" />
+      
       <div className="content-text">
       <h1 className="title">SOBRE NOSOTROS</h1>
       <p className="text">
