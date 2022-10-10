@@ -14,7 +14,7 @@ const Services = () => {
         <div className="cards-serv">
           <div className="card">
             <img src={Wsp} className="wsp-img" alt='' />
-            <p>Atención inmediata por Whatsapp</p>
+            <p>Atención inmediata por WhatsApp</p>
           </div>
           <div className="card">
             <img src={Cake} className="wsp-img" alt=''/>
@@ -29,7 +29,13 @@ const Services = () => {
             <p>Te llevamos el pedido a tu hogar</p>
           </div>
         </div>
+        <div>
+       <button className="btn-serv">
+        <h2>¡Hablemos Ahora!</h2>
+       </button>
+       </div>
       </div>
+      
     );
 }
 
