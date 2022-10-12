@@ -4,27 +4,27 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+    
+}
+.subcontainer-prod{
+    font-size: 20px;
+    font-weight: 400;
+    
+ 
 }
 .title-prod{
     font-size: 40px;
     font-weight: 800;
     font-family: 'Baloo Da 2';
+    margin-bottom: 15%;
 }
 
-.subcontainer-prod{
-    display: flex;
-    flex-direction: row;
-    justify-content: right;
-    font-size: 20px;
-    font-weight: 400;
- 
-}
+
 .content-prod{
     text-align: left;
     font-family: 'Poppins';
-    width: 40%;
-    
+    text-align: justify;
+   
 
 }
 
@@ -41,7 +41,7 @@
     border: transparent ;
     border-radius: 31px;
     text-align: center;
-    margin-top: 7rem;
+    
 }
 .btn-prod:hover{
     transform: scale(1.1);

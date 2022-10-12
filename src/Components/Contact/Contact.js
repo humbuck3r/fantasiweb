@@ -7,9 +7,10 @@ const mapURL = `https://maps.googleapis.com/maps/api/js?v=3.exp&key=${credential
 
 const Contact = () => {
     return (
-        <div>
-            <div><h1>visitanos en nuestra tienda</h1>
-            <Map 
+        <div className='contact'>
+            <div className='title-contact'><h1>visitanos en nuestra tienda</h1></div>
+             <div className='map-contact'>
+             <Map 
             //googleMapURL = {mapURL}
             //containerElement= {<div style={{height : '400px'}}/>}
             //mapElement = {<div style={{height:'100%'}}/>}
