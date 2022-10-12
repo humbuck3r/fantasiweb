@@ -11,29 +11,4 @@
   z-index: 5;
 }
 
-/* modificadores del svg*/
 
-.separatortop {
-  position: absolute;
-  left: 0;
-  top: -380px;
-  z-index: -1;
-  
-}
-#sepidtop {
-  fill: white;
-}
-
-
-
-.separator {
-  position: absolute;
-  bottom: -550px;
-  height: 100%;
-  left: 0px;
-  width: 100%;
-  z-index: 2;
-}
-#sepid {
-  fill: #fd7100;
-}
