@@ -1,4 +1,5 @@
 import React from "react";
+<<<<<<< HEAD
 import "./Products.css";
 
 const Products = () => {
@@ -7,6 +8,18 @@ const Products = () => {
       <h1 className="title-prod">NUESTROS PRODUCTOS</h1>
 
       <div className="subcontainer-prod">
+=======
+import "./Products.css"; 
+import Sliderprod from '../Slider-prod/Slider-prod'
+function Products() {
+  return (
+    <div className="container-prod">
+      <h1 className="title-prod">NUESTROS PRODUCTOS</h1>
+      <div className="subcontainer-prod">
+
+      <Sliderprod/>
+      
+>>>>>>> c58c6a9a71f288c2920b4132cb2492a6979f1039
         <div className="content-prod">
           <p>
             Contamos con un amplio surtido en productos, abarcando carnaval,
@@ -28,6 +41,6 @@ const Products = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Products;
