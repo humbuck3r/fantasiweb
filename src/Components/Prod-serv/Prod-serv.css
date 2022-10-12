@@ -1,7 +1,6 @@
 .prodserv {
   height: 1500px;
   position: relative;
-  background-image: url(../../Assets/Img/backcomponent.png);
   background-size: contain;
   background-position: 50px -200px;
   z-index: 1;
@@ -16,7 +15,7 @@
 .separatortop {
   position: absolute;
   left: 0;
-  top: -380px;
+  top: -290px;
   z-index: -1;
   
 }
@@ -28,7 +27,7 @@
 
 .separator {
   position: absolute;
-  bottom: -550px;
+  bottom: -600px;
   height: 100%;
   left: 0px;
   width: 100%;
