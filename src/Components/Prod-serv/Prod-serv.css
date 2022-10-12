@@ -1,8 +1,8 @@
 .prodserv {
   height: 1500px;
   position: relative;
-  background-image: url(../../Assets/Img/backcomponent.png);
-  background-size: contain;
+  background-image: url(../../Assets/Img/background\ center.png);
+  background-size: cover;
   background-position: 50px -200px;
   z-index: 1;
 }
@@ -11,29 +11,10 @@
   z-index: 5;
 }
 
-/* modificadores del svg*/
-
-.separatortop {
+.prodhead{
   position: absolute;
-  left: 0;
-  top: -380px;
-  z-index: -1;
-  
-}
-#sepidtop {
-  fill: white;
-}
-
-
-
-.separator {
-  position: absolute;
-  bottom: -550px;
-  height: 100%;
-  left: 0px;
+  height: auto;
+  left: -20px;
   width: 100%;
-  z-index: 2;
-}
-#sepid {
-  fill: #fd7100;
+  top: -400px;
 }
