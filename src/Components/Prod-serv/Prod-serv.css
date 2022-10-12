@@ -2,9 +2,9 @@
   height: 1500px;
   position: relative;
   background-image: url(../../Assets/Img/background\ center.png);
-  background-size: cover;
-  background-position: 50px -200px;
+  background-size: contain;
   z-index: 1;
+  background-position: center;
 }
 .prd-img {
   height: 100%;
@@ -14,7 +14,16 @@
 .prodhead{
   position: absolute;
   height: auto;
-  left: -20px;
+  left: 0px;
   width: 100%;
   top: -400px;
+}
+
+.prodbot{
+  position: absolute;
+  height: auto;
+  width: 100%;
+  left: 0px;
+  bottom: -390px;
+  z-index: -2;
 }
