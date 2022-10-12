@@ -1,15 +1,58 @@
 .container-prod{
+    width: 100%;
+    height: 800px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+   
+}
+.title-prod{
+    font-size: 40px;
+    font-weight: 800;
     font-family: 'Baloo Da 2';
 }
 
 .subcontainer-prod{
     display: flex;
     flex-direction: row;
+    justify-content: right;
+    font-size: 20px;
+    font-weight: 400;
+ 
+}
+.content-prod{
+    text-align: left;
     font-family: 'Poppins';
+    width: 40%;
+    
+
+}
+
+.content-prod-list{
+    margin-bottom: 0.3%;
+
 }
 .btn-prod{
     background: linear-gradient(90deg, #FE8C00 0%, #F83600 100%);
-border-radius: 31px;
+    border-radius: 31px;
+    height: 45px;
+    width: 230px;
+    background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
+    border: transparent ;
+    border-radius: 31px;
+    text-align: center;
+    margin-top: 7rem;
+}
+.btn-prod:hover{
+    transform: scale(1.1);
+    
+} 
+.btn-prod > h2 {
+    font-size: 18px;
+    font-family: "Avenir";
+    font-weight: 800;
+    line-height: 43px;
+    color: #fff;
+   
+
 }
