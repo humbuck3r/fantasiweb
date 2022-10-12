@@ -8,17 +8,18 @@
 }
 .subcontainer-prod{
     display: flex;
+    flex-direction: row;
     float: left;
     font-size: 20px;
     font-weight: 400;
-    
+    align-items: center;
  
 }
 .title-prod{
     font-size: 40px;
     font-weight: 800;
     font-family: 'Baloo Da 2';
-    margin-bottom: 15%;
+    
 }
 
 

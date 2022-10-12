@@ -7,6 +7,7 @@ const Products = () => {
       <h1 className="title-prod">NUESTROS PRODUCTOS</h1>
 
       <div className="subcontainer-prod">
+        <Sliderprod/>
         <div className="content-prod">
           <p>
             Contamos con un amplio surtido en productos, abarcando carnaval,
