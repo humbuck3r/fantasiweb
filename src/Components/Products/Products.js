@@ -1,6 +1,6 @@
 import React from "react";
 import "./Products.css";
-
+import Sliderprod from '../Slider-prod/Slider-prod'
 const Products = () => {
   return (
     <div className="container-prod">
