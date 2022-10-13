@@ -9,19 +9,20 @@
     flex-direction: column;
     justify-content: center;
     color: #000;
-    
+   
 }
 .title-serv{
     font-weight: 800;
     margin-bottom: 1rem;
-    font-size: 40px;
-    
+    font-size: 48px;
+     z-index: 100;
 }
 .text-serv{
     font-weight: 400;
     font-family: 'Poppins';
     font-size: 22px;
     margin-bottom: 4rem;
+    z-index: 100;
 
 }
 
@@ -32,7 +33,7 @@
     justify-content: center;
     font-family: "Poppins";
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .card {
@@ -42,39 +43,62 @@
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
     border-radius: 11px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 2rem;
+    padding: 1rem;
     margin-left: 20px;
     
     
 }
 .wsp-img{
-    color: #00BCC5;
+    color: #F08A1D;
     height: 50px;
     width: 50px;
-    margin-bottom: 15%;
+   
 }
+
+.cake-img{
+    color: #F08A1D;
+    height: 60px;
+    width: 50px;
+   
+    
+}
+
+.buy-img{
+    color: #F08A1D;
+    height: 45px;
+    width: 68px;
+   
+}
+
+.delivery-img{
+    color: #F08A1D;
+    height: 47px;
+    width: 67px;
+}
+
+
 .btn-serv{
     height: 45px;
     width: 215px;
     background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
+    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
     border: transparent ;
     border-radius: 31px;
     text-align: center;
-    margin-top: 7rem;
-   
+    margin-top: 7rem; 
+
 }
+
 .btn-serv:hover{
-    transform: scale(1.1);
-    
+    transform: scale(1.1); 
   } 
+
 .btn-serv > h2 {
-    font-size: 18px;
+    font-size: 20px;
     font-family: "Avenir";
     font-weight: 800;
     line-height: 43px;
     color: #fff;
-   
-
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./About.css";
+import iconoubi from '../../Assets/Img/icono-ubi.png';
 const About = () => {
   return (
     <div className="about">
@@ -13,6 +14,12 @@ const About = () => {
         de mucho esfuerzo y esmero, sigue hoy más vigente que nunca ofreciendo
         los mejores precios y la mayor calidad del mercado.
       </p>
+      </div>
+      <div>
+        <button className="btn-about">
+          <img src={iconoubi}  className="btn-icono" alt=''/>
+          <h2>Visitanos en nuestra tienda</h2>
+        </button>
       </div>
     </div>
   );

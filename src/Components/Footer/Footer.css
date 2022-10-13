@@ -1,5 +1,28 @@
 .foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     width: 100%;
     height: 200px;
-    background: linear-gradient(90deg, #FE8C00 0%, #F83600 100%);
+    background: #383838
+    
+}
+.logo-foot{
+    width: 179px;
+    height: 80px;
+}
+
+.icon-ig{
+    margin-right: 1rem;
+}
+
+.icon-wsp{
+    margin-left: 1rem;
+}
+.copyR{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
 }
