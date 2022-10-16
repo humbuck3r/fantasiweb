@@ -5,9 +5,9 @@ const Products = () => {
   return (
     <div className="container-prod">
       <h1 className="title-prod">NUESTROS PRODUCTOS</h1>
-
+      <Sliderprod/>
       <div className="subcontainer-prod">
-        <Sliderprod/>
+        
         <div className="content-prod">
           <p>
             Contamos con un amplio surtido en productos, abarcando carnaval,

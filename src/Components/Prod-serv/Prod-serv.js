@@ -10,9 +10,8 @@ const ProdServ = () => {
       <div className="prodserv">
         <img src={Imghead} className="prodhead" />
         <img src={Imgbot} className="prodbot" />
-
-        <Services />
-        <Products />
+        <Services/>
+        <Products/>
       </div>
     );
 }

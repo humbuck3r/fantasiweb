@@ -13,8 +13,7 @@ function App() {
       <Slider/>
       <ProdServ/>
       <About/>
-      
-      <Footer/>  
+      <Footer/>
     </div>
   );
 }

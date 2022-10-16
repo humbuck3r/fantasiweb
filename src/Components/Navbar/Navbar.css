@@ -4,8 +4,8 @@
     background-color: transparent !important;
     font-family: 'Poppins';
     text-transform: uppercase;
-    align-content: space-between;
-    align-items: baseline;
+    justify-content: center;    
+    flex-direction: row-reverse;
 }
 
 
@@ -16,6 +16,7 @@
 }
 .logo{
     margin-left: 2rem;
+    width: 67px;
 }
  
 
@@ -38,6 +39,7 @@
   border: transparent ;
   border-radius: 31px;
   margin-right: 2rem;
+  display: none;
 }
 .btn-nav:hover{
   transform: scale(1.1);
@@ -52,4 +54,16 @@
   line-height: 40px;
   color: #ffffff;
   text-align: center;
+}
+
+
+/*Responsive */
+ 
+@media (min-width: 1024px) {
+ .nav-bar{
+  flex-direction: row;
+ }
+ .logo{
+  width: 180px;
+ }
 }
