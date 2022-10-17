@@ -9,10 +9,6 @@
   z-index: 5;
 }
 
-
-
-
-
 .prodhead{
   position: absolute;
   height: auto;
@@ -75,11 +71,15 @@
   }
 }
 @media (min-width: 1800px) {
+  .prodserv{
+    height: 1500px;
+  }
+  
   .prodhead{
     top: -570px;
   }
   .prodbot{
-    top: 1850px;
+    top: 1500px;
   }
 
 }

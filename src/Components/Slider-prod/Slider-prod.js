@@ -8,10 +8,10 @@ import Carousel from 'react-bootstrap/Carousel';
 
 function Sliprod() {
   return (
-    <Carousel variant="dark" className="slide">
-      <Carousel.Item>
+    <Carousel variant="dark" className="slide-prod ">
+      <Carousel.Item className='slide-item'>
         <img
-          className="d-block w-100 img fluid"
+          className="d-block w-100 img-prod "
           src={Choco}
           alt="First slide"
         />
@@ -19,7 +19,7 @@ function Sliprod() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 img fluid"
+          className="d-block w-100 img-prod "
           src={Choco}
           alt="Second slide"
         />
@@ -27,7 +27,7 @@ function Sliprod() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100 img fluid"
+          className="d-block w-100 img-prod "
           src={Choco}
           alt="Third slide"
         />
