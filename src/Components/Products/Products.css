@@ -1,6 +1,5 @@
 .container-prod{
     width: 100%;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,10 +24,7 @@
 
 .content-prod{
     
-    font-family: 'Poppins';
-    
-   
-   
+    font-family: 'Poppins'
 
 }
 
@@ -68,4 +64,38 @@
         display: flex;
         flex-direction: row;
    }
+}
+@media (min-width: 1800px){
+    .title-prod{
+        margin-top: 250px;
+        margin-bottom: 100px;
+        
+    }
+    
+    .slide-prod{
+        height: 437px;
+    }
+    .img-prod{
+        height: 427px;
+        width: 470px !important;
+        margin-left: 100px;
+    }
+    .subcontainer-prod{
+        width: 50%;
+    }
+    .carousel-cont{
+        width: 36%;
+    }
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+    .content-prod > p{
+        font-size: larger;
+    }
+    .btn-prod{
+        margin-top: 50px;
+    }
 }
