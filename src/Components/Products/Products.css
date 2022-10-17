@@ -1,6 +1,5 @@
 .container-prod{
     width: 100%;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,33 +14,34 @@
  
 }
 .title-prod{
-    font-size: 48px;
+    font-size: 28px;
     font-weight: 800;
     font-family: 'Baloo Da 2';
     z-index: 3;
+    margin: 4rem 0rem 2rem;
     
 }
 
 
 .content-prod{
-    
     font-family: 'Poppins';
-    
-   
-   
+    font-size: 16px;
+    text-align: left;
+    margin: 2rem 0.7rem 3rem ;
 
 }
 
 .content-prod-list{
     margin-bottom: 0.3%;
+    
 
 }
 .btn-prod{
     background: linear-gradient(90deg, #FE8C00 0%, #F83600 100%);
     box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
     border-radius: 31px;
-    height: 50px;
-    width: 265px;
+    height: 35px;
+    width: 245px;
     border: transparent ;
     border-radius: 31px;
     text-align: center;
@@ -52,16 +52,40 @@
     
 } 
 .btn-prod > h2 {
-    font-size: 20px;
+    font-size: 18px;
     font-family: "Avenir";
     font-weight: 800;
-    line-height: 48px;
+    line-height: 35px;
     color: #fff;
    
-
 }
 
-/*Responsive*/
+/*Responsive */
+
+ 
+@media (min-width: 424px) {
+   
+    .title-prod{
+        font-size: 32px;
+        margin: 4rem 0rem 2rem;
+        
+    }
+    .content-prod{
+        font-size: 18px;
+        text-align: left;
+        margin: 2rem 0rem 3rem 2rem ;
+    
+    }
+    .btn-prod{
+        height: 45px;
+        width: 255px;
+    }
+    .btn-prod > h2 {
+        font-size: 20px;
+        line-height: 43px;
+       
+    }
+}
 
 @media (min-width: 1024px){
    .container-prod{

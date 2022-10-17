@@ -31,7 +31,7 @@ const Services = () => {
         </div>
         <div>
        <button className="btn-serv">
-        <h2>¡Hablemos Ahora!</h2>
+        <h3>¡Hablemos Ahora!</h3>
        </button>
        </div>
       </div>
