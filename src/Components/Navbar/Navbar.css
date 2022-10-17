@@ -11,9 +11,17 @@
 
 #basic-navbar-nav{
     justify-content: center;
+    background: #fff;
+   
     
     
 }
+.navbar-toggler-icon{
+  width: 20px;
+  height: 20px;
+  
+}
+
 .logo{
     margin-left: 2rem;
     width: 67px;
@@ -23,12 +31,13 @@
 .navs-title {
   font-style: normal;
   font-weight: 900;
-  font-size: 18px;
+  font-size: 14px;
   line-height: 42px;
-  color: #fff;
+  color: #f29400;
+ 
 }
 .navs-title:hover{
-  color: #f29400;
+  color: #383838;
   cursor: pointer;
 }
 
@@ -58,6 +67,7 @@
 
 
 /*Responsive */
+
  
 @media (min-width: 1024px) {
  .nav-bar{
