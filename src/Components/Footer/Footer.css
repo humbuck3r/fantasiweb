@@ -11,6 +11,7 @@
 .logo-foot{
     width: 179px;
     height: 80px;
+    margin-left: 30px;
 }
 
 .icon-ig{
@@ -25,4 +26,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
+}
+.linea{
+    border: 1px solid #f29400;
+    width: 200px;
+}
+
+
+
+@media (min-width: 768px) {
+    .linea{
+        width: 200px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .linea{
+        height: 3px;
+        background-color: #f29400;
+    }
 }

@@ -66,4 +66,7 @@
  .logo{
   width: 180px;
  }
+ .btn-nav{
+  display: block;
+ }
 }

@@ -3,11 +3,10 @@ import "./Products.css";
 import Sliderprod from '../Slider-prod/Slider-prod'
 const Products = () => {
   return (
-    <div className="container-prod">
-      <h1 className="title-prod">NUESTROS PRODUCTOS</h1>
-      <Sliderprod/>
+      <><h1 className="title-prod">NUESTROS PRODUCTOS</h1><div className="container-prod">
+      <Sliderprod />
       <div className="subcontainer-prod">
-        
+
         <div className="content-prod">
           <p>
             Contamos con un amplio surtido en productos, abarcando carnaval,
@@ -22,12 +21,13 @@ const Products = () => {
           </p>
         </div>
       </div>
-      <div>
-        <button className="btn-prod">
-          <h2>¡Quiero una Cotización!</h2>
-        </button>
-      </div>
+        
+      
     </div>
+    <button className="btn-prod">
+          <h2>¡Quiero una Cotización!</h2>
+        </button></>
+    
   );
 }
 

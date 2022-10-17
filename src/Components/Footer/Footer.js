@@ -11,7 +11,7 @@ const Footer = () => {
     return (
     <div className='foot'>
             <img src={logo} className="logo-foot" alt=''/>
-
+            <div className='linea'></div>
              <div>
                 <a alt="instagram" href="https://www.instagram.com/fantasicotillon/">
                     <img src={instagram} className="icon-ig" alt=''/>

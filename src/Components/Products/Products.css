@@ -63,6 +63,9 @@
 
 /*Responsive*/
 
-@media (min-width: 1800px){
-   
+@media (min-width: 1024px){
+   .container-prod{
+        display: flex;
+        flex-direction: row;
+   }
 }
