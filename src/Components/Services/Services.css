@@ -7,7 +7,6 @@
   justify-content: center;
   color: #000;
 }
-<<<<<<< HEAD
 .title-serv {
   font-weight: 800;
   margin-bottom: 1rem;
@@ -82,93 +81,12 @@ card:hover{
   border-radius: 31px;
   text-align: center;
   margin-top: 7rem;
-=======
-.title-serv{
-    font-weight: 800;
-    margin-bottom: 0.5rem;
-    font-size: 28px;
-    z-index: 100;
-}
-.text-serv{
-    font-weight: 400;
-    font-family: 'Poppins';
-    font-size: 16px;
-    margin: 0rem 2rem 3rem 2rem;
-    z-index: 100;
-
-}
-
-.cards-serv {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    font-family: "Poppins";
-    font-weight: 400;
-    font-size: 16px;
-    z-index: 1;
-}
-
-.card {
-    width: 233px;
-    height: 240px;
-    border: 1px solid #f5f5f5;
-    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 11px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2rem;
-    margin-bottom: 0.5rem;   
-    
-}
-.wsp-img{
-    color: #F08A1D;
-    height: 40px;
-    width: 40px;
-   
-}
-
-.cake-img{
-    color: #F08A1D;
-    height: 50px;
-    width: 40px;
-   
-    
-}
-
-.buy-img{
-    color: #F08A1D;
-    height: 35px;
-    width: 58px;
-   
-}
-
-.delivery-img{
-    color: #F08A1D;
-    height: 37px;
-    width: 57px;
-}
-
-
-.btn-serv{
-    height: 35px;
-    width: 205px;
-    background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
-    box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
-    border: transparent ;
-    border-radius: 31px;
-    text-align: center;
-    margin: 3rem 3rem ; 
-
->>>>>>> f6bee90cef5a8314dcccb724a866616ccf53097f
 }
 
 .btn-serv:hover {
   transform: scale(1.1);
 }
 
-<<<<<<< HEAD
 .btn-serv > h2 {
   font-size: 20px;
   font-family: "Avenir";
@@ -182,44 +100,11 @@ card:hover{
     width: 400px;
     height: 350px;
   }
+  .card:hover{
+    transform: scale(1.1);
+  }
+  .btn-serv{
+    width: 290px;
+    height: 50px;
+  }
 }
-=======
-.btn-serv > h3 {
-    font-size: 18px;
-    font-family: "Avenir";
-    font-weight: 800;
-    line-height: 36px;
-    color: #fff;
-}
-
-/*Responsive */
-
- 
-@media (min-width: 424px) {
-   
-    .title-serv{
-        font-size: 32px;
-       
-    }
-    .text-serv{
-        font-size: 18px;
-    }
-    .cards-serv {
-        font-size: 20px;
-    }
-    .card {
-        width: 263px;
-        height: 270px;  
-        padding: 1rem;
-        margin-bottom: 1rem;   
-    }
-    .btn-serv{
-        height: 45px;
-        width: 225px;
-    }  
-    .btn-serv > h3 {
-        font-size: 22px;
-        line-height: 40px;
-    }
-}
->>>>>>> f6bee90cef5a8314dcccb724a866616ccf53097f
