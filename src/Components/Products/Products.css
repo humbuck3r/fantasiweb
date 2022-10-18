@@ -12,6 +12,12 @@
   font-weight: 400;
   align-items: center;
 }
+.carousel-control-prev {
+  display: none;
+}
+.carousel-control-next {
+  display: none;
+}
 .title-prod {
   font-size: 48px;
   font-weight: 800;

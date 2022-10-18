@@ -23,7 +23,7 @@
   height: auto;
   width: 100%;
   left: 0px;
-  top: 2052px;
+  top: 2300px;
   z-index: -1;
 }
 
@@ -34,7 +34,7 @@
     top: -140px;
   }
   .prodbot{
-    top: 2353px;
+    top: 2250px;
     z-index: -1;
   }
 }
@@ -42,6 +42,10 @@
 @media (min-width: 425px) {
   .prodhead{
     top: -160px;
+  }
+  
+  .prodbot{
+    top: 2470px;
   }
 }
 
