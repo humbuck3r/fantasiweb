@@ -94,11 +94,18 @@
 }
 @media (min-width: 1920px){
     .about{
-        margin-top: 400px;
+        margin-top: 150px;
         
         height: 1000px;
     }
     .btn-about{
         margin-bottom: 150px;
+    }
+    .text-about{
+        margin-left: 660px;
+        width: 30%;
+        text-align: center;
+        
+
     }
 }

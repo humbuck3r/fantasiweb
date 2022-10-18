@@ -3,7 +3,7 @@ import "./About.css";
 import iconoubi from '../../Assets/Img/icono-ubi.png';
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" >
       <div className="content-text">
       <h1 className="title-about">SOBRE NOSOTROS</h1>
       <p className="text-about">
