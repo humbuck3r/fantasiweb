@@ -8,13 +8,13 @@ function HeadNav() {
     <Navbar bg="light" expand="lg" className="nav-bar fixed-top">
       
         <Navbar.Brand href="#home">
-          <a alt="logo" href="#">
+          <a alt="logo" href="#home">
             <img src={Logo} className="logo" alt="" />
           </a>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto navs">
+          <Nav className="me-auto-navs">
             <Nav.Link href="#home"><h2 className="navs-title">Inicio</h2></Nav.Link>
             <Nav.Link href="#link"><h2 className="navs-title">Servicios</h2></Nav.Link>
             <Nav.Link href="#link"><h2 className="navs-title">Productos</h2></Nav.Link>

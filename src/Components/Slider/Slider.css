@@ -1,3 +1,33 @@
 .slide{
-    z-index: -5;
+    z-index: -1;
+   
+}
+
+.img{
+    height: auto;
+}
+
+
+/*
+    responsive
+*/
+
+ 
+@media (min-width: 1024px) {
+    .slide{
+        height: 37rem;
+    }
+    .img{
+        height: 38rem;
+        width: 100%;
+        
+    }
+}
+@media (min-width: 1800px){
+    .slide{
+        height: auto;
+    }
+    .img{
+        height: 65rem;
+    }
 }
