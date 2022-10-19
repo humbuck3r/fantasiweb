@@ -28,6 +28,12 @@
 }
 
 /*Responsive */
+@media (min-width: 320px) {
+  .prodhead{
+    top: -50px;
+  }
+}
+
 
 @media (min-width: 370px) {
   .prodhead{
@@ -60,18 +66,19 @@
 
 @media (min-width: 1020px) {
   .prodhead{
-    top: -387px;
+    top: -270px;
   }
   .prodbot{
-    top: 1680px;
+    top: 1900px;
   }
+  
 }
 @media (min-width: 1440px) {
   .prodhead{
-    top: -545px;
+    top: -300px;
   }
   .prodbot{
-    top: 1150px;
+    top: 1370px;
   }
 }
 @media (min-width: 1800px) {
@@ -80,7 +87,7 @@
   }
   
   .prodhead{
-    top: -570px;
+    top: -330px;
   }
   .prodbot{
     top: 1490px;

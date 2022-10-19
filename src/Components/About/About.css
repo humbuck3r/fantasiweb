@@ -84,12 +84,22 @@
 
 @media (min-width: 1024px){
     .about{
-        margin-top: 150px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: center;
+    }
+    .text-about{
+        text-align: justify;
+        height: 150px;
+        
     }
 }
 @media (min-width: 1440px){
     .about{
-        margin-top: 190px;
+        margin-top: 0px;
+    }
+    .text-about{
+        text-align: left;
     }
 }
 @media (min-width: 1920px){
