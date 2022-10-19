@@ -10,14 +10,14 @@
 .title-serv {
   font-weight: 800;
   margin-bottom: 1rem;
-  font-size: 48px;
+  font-size: 28px;
   z-index: 100;
 }
 .text-serv {
   font-weight: 400;
   font-family: "Poppins";
-  font-size: 22px;
-  margin-bottom: 4rem;
+  font-size: 16px;
+  margin: 0rem 1rem 4rem 1rem;
   z-index: 100;
 }
 
@@ -28,72 +28,147 @@
   justify-content: center;
   font-family: "Poppins";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 16px;
   z-index: 1;
 }
 
 .card {
-  width: 253px;
-  height: 260px;
+  width: 243px;
+  height: 250px;
   border: 1px solid #f5f5f5;
   box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 1rem;
-  margin-left: 20px;
-  cursor: pointer;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  
 }
-card:hover{
+.card:hover{
     scale: (1.1);
 }
 .wsp-img {
   color: #f08a1d;
-  height: 50px;
-  width: 50px;
+  height: 40px;
+  width: 40px;
 }
 
 .cake-img {
   color: #f08a1d;
-  height: 60px;
-  width: 50px;
+  height: 50px;
+  width: 40px;
 }
 
 .buy-img {
   color: #f08a1d;
-  height: 45px;
-  width: 68px;
+  height: 35px;
+  width: 58px;
 }
 
 .delivery-img {
   color: #f08a1d;
-  height: 47px;
-  width: 67px;
+  height: 37px;
+  width: 57px;
 }
 
 .btn-serv {
-  height: 45px;
-  width: 215px;
+  height: 35px;
+  width: 205px;
   background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
   box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
   border: transparent;
   border-radius: 31px;
   text-align: center;
-  margin-top: 7rem;
+  margin: 3rem 0rem 3rem;
 }
 
 .btn-serv:hover {
   transform: scale(1.1);
 }
 
-.btn-serv > h2 {
-  font-size: 20px;
+.btn-serv > h3 {
+  font-size: 18px;
   font-family: "Avenir";
   font-weight: 800;
-  line-height: 43px;
+  line-height: 34px;
   color: #fff;
 }
+
+/*responsive*/
+
+@media (min-width: 424px) {
+  .title-serv {
+    font-size: 34px;
+  }
+  .text-serv {
+    font-size: 20px;
+    margin: 0rem 2rem 4rem 2rem;  
+  }
+  
+  .cards-serv {
+    font-size: 18px;
+  }
+  
+  .card {
+    width: 273px;
+    height: 280px;
+  }
+}
+
+
+@media (min-width: 767px) {
+  .title-serv {
+    font-size: 48px;
+  }
+  .text-serv {
+    font-size: 28px;
+    margin-bottom: 5%;  
+  }
+  
+  .cards-serv {
+    font-size: 24px;
+  }
+  
+  .card {
+    width: 315px;
+    height: 335px;
+    margin: 0rem 1rem 2rem 1rem;
+    padding: 1rem;
+  }
+  .wsp-img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  .cake-img {
+    height: 60px;
+    width: 50px;
+  }
+  
+  .buy-img {
+    height: 45px;
+    width: 68px;
+  }
+  
+  .delivery-img {
+    height: 47px;
+    width: 67px;
+  }
+  
+  .btn-serv {
+    height: 45px;
+    width: 225px;
+    margin-top: 5%;
+  }
+  
+  .btn-serv > h3 {
+    font-size: 22px;
+    line-height: 40px;
+  }
+}
+
+
 
 @media (min-width: 1800px) {
   .card {

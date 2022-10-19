@@ -12,6 +12,12 @@
   font-weight: 400;
   align-items: center;
 }
+.carousel-control-prev {
+  display: none;
+}
+.carousel-control-next {
+  display: none;
+}
 .title-prod {
   font-size: 48px;
   font-weight: 800;
@@ -40,14 +46,11 @@
   transform: scale(1.1);
 }
 .btn-prod > h2 {
-
-    font-size: 18px;
-    font-family: "Avenir";
-    font-weight: 800;
-    line-height: 35px;
-    color: #fff;
-   
-
+  font-size: 20px;
+  font-family: "Avenir";
+  font-weight: 800;
+  line-height: 48px;
+  color: #fff;
 }
 
 /*Responsive */
