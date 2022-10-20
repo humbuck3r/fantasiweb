@@ -4,9 +4,8 @@
     background-color: transparent !important;
     font-family: 'Poppins';
     text-transform: uppercase;
-    justify-content: space-evenly;    
-    flex-direction: row-reverse;   
-    backdrop-filter: blur(5px);
+    justify-content: center ;   
+    height: auto;
 }
 
 .navbar-collapse{
@@ -24,9 +23,9 @@
 
 
 
-.logo{
-    margin-left: 2rem;
-    width: 67px;
+.logo{ 
+  width: 67px;
+  height: 34px;
 }
  
 

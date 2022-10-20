@@ -2,6 +2,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import Logo from '../../Assets/Img/Fantasy - logo 1.png'
 import "./Navbar.css"
+import Share from '../../Assets/Img/📍Trailing icon 2.png'
 
 function HeadNav() {
   return (
@@ -11,6 +12,7 @@ function HeadNav() {
           <a alt="logo" href="#home">
             <img src={Logo} className="logo" alt="" />
           </a>
+          <img src={Share} className="" alt=""/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
