@@ -78,8 +78,14 @@
 
 @media (min-width: 765px){
     .about{
-        margin-top: 130px;
+        
+        height: 500px
     }
+   
+    .title-about{
+        margin-top: 140px
+    }
+    ;
 }
 
 @media (min-width: 1024px){

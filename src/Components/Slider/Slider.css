@@ -6,6 +6,9 @@
 .img{
     height: auto;
 }
+.carousel-indicators{
+    display: none;
+}
 
 
 /*
