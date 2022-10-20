@@ -3,14 +3,16 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 1rem;
 }
 .subcontainer-prod {
   display: flex;
   flex-direction: column;
   float: left;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 400;
-  align-items: center;
+  text-align: left;
+  padding: 0.9rem
 }
 .carousel-control-prev {
   display: none;
@@ -19,10 +21,11 @@
   display: none;
 }
 .title-prod {
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 800;
   font-family: "Baloo Da 2";
   z-index: 3;
+  margin-top: 5rem;
 }
 
 .content-prod {
@@ -36,8 +39,8 @@
   background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
   box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
-  height: 50px;
-  width: 265px;
+  height: 30px;
+  width: 245px;
   border: transparent;
   border-radius: 31px;
   text-align: center;
@@ -46,10 +49,10 @@
   transform: scale(1.1);
 }
 .btn-prod > h2 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "Avenir";
   font-weight: 800;
-  line-height: 48px;
+  line-height: 32px;
   color: #fff;
 }
 
