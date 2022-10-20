@@ -85,6 +85,16 @@
     display: flex;
     flex-direction: row;
   }
+  .carousel-cont {
+    width: 100%;
+    margin-left: 120px;
+  }
+   .content-prod > p {
+    font-size: larger;
+    width: 70%;
+    text-align: left; 
+  }
+
 }
 @media (min-width: 1440px) {
   

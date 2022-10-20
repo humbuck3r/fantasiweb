@@ -14,7 +14,7 @@
   height: auto;
   width: 100%;
   left: 0px;
-  top: -120px;
+  top: -50px;
   z-index: 1;
 }
 
@@ -29,9 +29,11 @@
 
 /*Responsive */
 
+
+
 @media (min-width: 370px) {
   .prodhead{
-    top: -140px;
+    bottom: 100px;
   }
   .prodbot{
     top: 2250px;
@@ -41,7 +43,7 @@
 
 @media (min-width: 425px) {
   .prodhead{
-    top: -160px;
+    bottom:  10px;
   }
   
   .prodbot{
@@ -51,27 +53,28 @@
 
 @media (min-width: 767px) {
   .prodhead{
-    top: -290px;
+    top: -135px;
   }
   .prodbot{
-    top: 1868px;
+    top: 2150px;
   }
 }
 
 @media (min-width: 1020px) {
   .prodhead{
-    top: -387px;
+    top: -120px;
   }
   .prodbot{
-    top: 1680px;
+    top: 1900px;
   }
+  
 }
 @media (min-width: 1440px) {
   .prodhead{
-    top: -545px;
+    top: -260px;
   }
   .prodbot{
-    top: 1150px;
+    top: 1370px;
   }
 }
 @media (min-width: 1800px) {
@@ -80,7 +83,7 @@
   }
   
   .prodhead{
-    top: -570px;
+    top: -330px;
   }
   .prodbot{
     top: 1490px;

@@ -6,6 +6,9 @@
 .img{
     height: auto;
 }
+.carousel-indicators{
+    display: none;
+}
 
 
 /*
@@ -22,6 +25,15 @@
         width: 100%;
         
     }
+    .carousel-control-prev {
+    display: none;
+  }
+  .carousel-control-next {
+    display: none;
+  }
+  .carousel-indicators{
+    display: none;
+  }
 }
 @media (min-width: 1800px){
     .slide{
