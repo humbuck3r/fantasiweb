@@ -119,23 +119,20 @@
 
 @media (min-width: 767px) {
   .title-serv {
-    font-size: 48px;
+    font-size: 44px;
   }
   .text-serv {
-    font-size: 28px;
+    font-size: 22px;
     margin-bottom: 5%;  
   }
   
   .cards-serv {
-    font-size: 24px;
+    justify-content: space-evenly;    
+    font-size: 18px;
+    
   }
   
-  .card {
-    width: 315px;
-    height: 335px;
-    margin: 0rem 1rem 2rem 1rem;
-    padding: 1rem;
-  }
+  
   .wsp-img {
     height: 50px;
     width: 50px;
@@ -157,14 +154,14 @@
   }
   
   .btn-serv {
-    height: 45px;
+    height: 48px;
     width: 225px;
     margin-top: 5%;
   }
   
   .btn-serv > h3 {
-    font-size: 22px;
-    line-height: 40px;
+    font-size: 18px;
+    line-height: 46px;
   }
 }
 

@@ -67,13 +67,13 @@
 /* Responsive*/
 @media (min-width: 424px){
     .title-about{
-        font-size: 32px;
+        font-size: 34px;
         margin-top: 32%;       
     }
     
     .text-about{
-        font-size: 18px;
-        margin: 0rem 1.5rem 0rem 1.5rem;   
+        font-size: 20px;
+           
     }
     
 }
@@ -81,13 +81,36 @@
 @media (min-width: 765px){
     .about{
         
-        height: 500px
+        height: 700px;
+        
     }
-   
     .title-about{
-        margin-top: 140px
+        font-size: 44px;
+        margin-top: 15%;       
     }
-    ;
+    
+    .text-about{
+        font-size: 22px;
+        line-height: 1.6;
+        padding: 0rem 1.5rem 0rem 1.5rem;
+           
+    }
+    .btn-about {
+        height: 48px;
+        width: 285px;
+        margin-top: 10%;
+        
+      }
+      
+      .btn-about > h2 {
+        font-size: 16px;
+        line-height: 46px;
+        
+      }
+      .btn-icono{
+        width: 18px;
+        height: 24px;
+    }
 }
 
 @media (min-width: 1024px){

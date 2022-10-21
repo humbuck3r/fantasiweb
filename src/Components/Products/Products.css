@@ -58,25 +58,41 @@
 @media (min-width: 424px) {
    
     .title-prod{
-        font-size: 32px;
+        font-size: 34px;
         margin: 4rem 0rem 2rem;
         
     }
-    .content-prod{
-        font-size: 18px;
+    .subcontainer-prod{
+        font-size: 20px;
         text-align: left;
-        margin: 2rem 0rem 3rem 2rem ;
     
     }
-    .btn-prod{
-        height: 45px;
-        width: 255px;
-    }
-    .btn-prod > h2 {
-        font-size: 20px;
-        line-height: 43px;
-       
-    }
+    
+}
+@media (min-width: 768px) {
+   
+  .title-prod{
+      font-size: 44px;
+      margin: 4rem 0rem 2rem;
+      
+  }
+  .subcontainer-prod{
+      font-size: 22px;
+      text-align: left;
+      
+  
+  }
+  .btn-prod {
+    height: 48px;
+    width: 255px;
+    margin-top: 5%;
+  }
+  
+  .btn-prod > h2 {
+    font-size: 16px;
+    line-height: 46px;
+  }
+  
 }
 
 @media (min-width: 1024px) {
