@@ -35,21 +35,13 @@ const Products = () => {
           </Carousel>
           </div>
         <div className="subcontainer-prod">
-          <div className="content-prod">
             <p>
               Contamos con un amplio surtido en productos, abarcando carnaval,
               cotillón infantil, materias primas y accesorios de repostería,
               golosinas, manualidades, disfraces, descartables y mucho más.
-              <ul className="content-prod-list">
-                <li>
-                  Mejor ecuación Precio / Beneficio para nuestros clientes.
-                </li>
-              </ul>
-              <ul>
-                <li>Innovación constante en nuestro modelo de ventas.</li>
-              </ul>
+              Mejor ecuación Precio / Beneficio para nuestros clientes.
+              Innovación constante en nuestro modelo de ventas.
             </p>
-          </div>
         </div>
       </div>
       <button className="btn-prod">

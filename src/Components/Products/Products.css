@@ -3,14 +3,19 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-top: 1rem;
 }
 .subcontainer-prod {
   display: flex;
   flex-direction: column;
   float: left;
-  font-size: 20px;
+  font-family: "Poppins";
+  font-size: 16px;
   font-weight: 400;
-  align-items: center;
+  text-align: left;
+  padding: 0.9rem;
+  margin-top: 1rem;
+  
 }
 .carousel-control-prev {
   display: none;
@@ -19,25 +24,19 @@
   display: none;
 }
 .title-prod {
-  font-size: 48px;
+  font-size: 28px;
   font-weight: 800;
   font-family: "Baloo Da 2";
   z-index: 3;
+  margin-top: 5rem;
 }
 
-.content-prod {
-  font-family: "Poppins";
-}
-
-.content-prod-list {
-  margin-bottom: 0.3%;
-}
 .btn-prod {
   background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
   box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
   border-radius: 31px;
-  height: 50px;
-  width: 265px;
+  height: 40px;
+  width: 235px;
   border: transparent;
   border-radius: 31px;
   text-align: center;
@@ -46,10 +45,10 @@
   transform: scale(1.1);
 }
 .btn-prod > h2 {
-  font-size: 20px;
-  font-family: "Avenir";
-  font-weight: 800;
-  line-height: 48px;
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 600;
+  line-height: 38px;
   color: #fff;
 }
 
@@ -59,25 +58,41 @@
 @media (min-width: 424px) {
    
     .title-prod{
-        font-size: 32px;
+        font-size: 34px;
         margin: 4rem 0rem 2rem;
         
     }
-    .content-prod{
-        font-size: 18px;
+    .subcontainer-prod{
+        font-size: 20px;
         text-align: left;
-        margin: 2rem 0rem 3rem 2rem ;
     
     }
-    .btn-prod{
-        height: 45px;
-        width: 255px;
-    }
-    .btn-prod > h2 {
-        font-size: 20px;
-        line-height: 43px;
-       
-    }
+    
+}
+@media (min-width: 768px) {
+   
+  .title-prod{
+      font-size: 44px;
+      margin: 4rem 0rem 2rem;
+      
+  }
+  .subcontainer-prod{
+      font-size: 22px;
+      text-align: left;
+      
+  
+  }
+  .btn-prod {
+    height: 48px;
+    width: 255px;
+    margin-top: 5%;
+  }
+  
+  .btn-prod > h2 {
+    font-size: 16px;
+    line-height: 46px;
+  }
+  
 }
 
 @media (min-width: 1024px) {
