@@ -7,7 +7,7 @@ import Share from '../../Assets/Img/📍Trailing icon 2.png'
 function HeadNav() {
   
   window.addEventListener("scroll",function(){
-    let header = document.getElementById("nav");
+    let header = document.querySelector("header");
 
     header.classList.toggle("abajo",this.window.scrollY>0);
   })

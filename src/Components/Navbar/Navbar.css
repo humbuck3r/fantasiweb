@@ -11,12 +11,28 @@ a {
   height: auto;
   
 }
+/*animacion navbar*/
+
+header{
+  transition: 0.7s;
+}
+
 header.abajo .nav-bar {
   backdrop-filter: blur(10px);
   transition: 0.7s;
-  padding: 20px 20px;
+  padding: 10px 10px;
+  display: flex;
+  justify-content: center;
 }
 
+header.abajo .share{
+  display: none;
+}
+header.abajo .logo{
+  margin-right: 0px;
+} 
+
+/*----------------------*/
 
 
 .navbar-collapse {
@@ -35,7 +51,7 @@ header.abajo .nav-bar {
 .logo {
   width: 67px;
   height: 34px;
-  margin-right: 30px;
+  
 }
 
 .navs-title {
