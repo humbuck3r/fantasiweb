@@ -5,8 +5,16 @@ import "./Navbar.css"
 import Share from '../../Assets/Img/📍Trailing icon 2.png'
 
 function HeadNav() {
+  
+  window.addEventListener("scroll",function(){
+    let header = document.getElementById("nav");
+
+    header.classList.toggle("abajo",this.window.scrollY>0);
+  })
+  
   return (
-    <Navbar bg="light" expand="lg" className="nav-bar fixed-top">
+    <header>
+    <Navbar bg="light" expand="lg" className="nav-bar fixed-top" id="nav">
       
         <Navbar.Brand href="#home">
           <a alt="logo" href="#home">
@@ -32,6 +40,7 @@ function HeadNav() {
         </button>
       
     </Navbar>
+    </header>
   );
 }
 
