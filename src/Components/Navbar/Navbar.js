@@ -14,17 +14,19 @@ function HeadNav() {
   
   return (
     <header>
-    <Navbar bg="light" expand="lg" className="nav-bar fixed-top" id="nav">
       
+    <Navbar bg="light" expand="lg" className="nav-bar fixed-top" id="nav">
+    
         <Navbar.Brand href="#home">
           <a alt="logo" href="#home">
             <img src={Logo} className="logo" alt="" />
           </a>
-          
-        </Navbar.Brand>
-       <a alt="share" href="#home">
+          <a alt="share" href="#home">
         <img src={Share} className="share" alt=""/>
        </a> 
+          
+        </Navbar.Brand>
+       
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto-navs">

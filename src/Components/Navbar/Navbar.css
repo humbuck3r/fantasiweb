@@ -53,6 +53,9 @@ header.abajo .logo{
   height: 34px;
   
 }
+.share{
+  position: relative;
+}
 
 .navs-title {
   font-style: normal;
@@ -92,15 +95,11 @@ header.abajo .logo{
 /*Responsive */
 
 @media (min-width: 375px) {
-  .nav-bar {
-    margin-right: 80px;
-  }
+ 
 }
 
 @media (min-width: 768px) {
-  .nav-bar {
-    margin-right: 260px;
-  }
+ 
   .logo {
     width: 120px;
     height: 70px;
