@@ -17,9 +17,7 @@ header.abajo .nav-bar {
   padding: 20px 20px;
 }
 
-header {
-  transition: 0.7s;
-}
+
 
 .navbar-collapse {
   display: none;
