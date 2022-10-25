@@ -12,8 +12,11 @@ function HeadNav() {
           <a alt="logo" href="#home">
             <img src={Logo} className="logo" alt="" />
           </a>
-          <img src={Share} className="" alt=""/>
+          
         </Navbar.Brand>
+       <a alt="share" href="#home">
+        <img src={Share} className="share" alt=""/>
+       </a> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto-navs">

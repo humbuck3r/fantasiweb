@@ -1,33 +1,35 @@
-.nav-bar{
-    z-index: 1000;
-    display: flex;
-    background-color: transparent !important;
-    font-family: 'Poppins';
-    text-transform: uppercase;
-    justify-content: center ;   
-    height: auto;
+a {
+  cursor: pointer;
+}
+.nav-bar {
+  z-index: 1000;
+  display: flex;
+  background-color: transparent !important;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  justify-content: flex-end;
+  height: auto;
+  margin-right: 50px;
 }
 
-.navbar-collapse{
+.navbar-collapse {
   display: none;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   display: none;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   width: 20px;
   height: 20px;
 }
 
-
-
-.logo{ 
+.logo {
   width: 67px;
   height: 34px;
+  margin-right: 30px;
 }
- 
 
 .navs-title {
   font-style: normal;
@@ -35,9 +37,8 @@
   font-size: 14px;
   line-height: 42px;
   color: #f29400;
- 
 }
-.navs-title:hover{
+.navs-title:hover {
   color: #383838;
   cursor: pointer;
 }
@@ -46,18 +47,17 @@
   width: 190px;
   height: 40px;
   background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
-  border: transparent ;
+  border: transparent;
   border-radius: 31px;
   margin-right: 2rem;
   display: none;
 }
-.btn-nav:hover{
+.btn-nav:hover {
   transform: scale(1.1);
-  
-} 
+}
 
 .btn-nav > h2 {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   text-transform: uppercase;
   font-weight: 900;
   font-size: 18px;
@@ -66,18 +66,51 @@
   text-align: center;
 }
 
-
 /*Responsive */
 
- 
+
+@media (min-width:425px) {
+  .nav-bar{
+    
+  }
+}
+@media (min-width: 375px) {
+  .nav-bar {
+    margin-right: 80px;
+  }
+}
+
+@media (min-width:768px) {
+  .nav-bar{
+    margin-right: 260px;
+  }
+  .logo{
+    width: 120px;
+    height: 70px;
+  }
+}
+
 @media (min-width: 1024px) {
- .nav-bar{
-  flex-direction: row;
- }
- .logo{
-  width: 180px;
- }
- .btn-nav{
-  display: block;
- }
+  .nav-bar {
+    flex-direction: row;
+    display: flex;
+    align-items: baseline;
+    margin-right: 0px;
+  }
+  .logo {
+    width: 150px;
+    height: 70px;
+    margin-left: 40px;
+  }
+  .btn-nav {
+    display: block;
+  }
+  .share{
+    display: none;
+  }
+  .navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    justify-content: center;
+}
 }
