@@ -1,6 +1,7 @@
 import React from "react";
 import "./About.css";
 import iconoubi from '../../Assets/Img/icono-ubi.png';
+import Scroll from '../Scroll-up/Scroll';
 const About = () => {
   return (
     <div className="about">
@@ -15,10 +16,13 @@ const About = () => {
           más vigente que nunca ofreciendo los mejores precios y la mayor
           calidad del mercado.
         </p>
-        <button className="btn-about">
-          <img src={iconoubi} className="btn-icono" alt="" />
-          <h2>Visitanos en nuestra tienda</h2>
-        </button>
+        <div className="scroll-container">
+          <button className="btn-about">
+            <img src={iconoubi} className="btn-icono" alt="" />
+            <h2>Visitanos en nuestra tienda</h2>
+          </button>
+          <Scroll />
+        </div>
       </div>
     </div>
   );

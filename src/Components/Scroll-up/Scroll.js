@@ -1,5 +1,7 @@
 import React from "react";
 import "./Scroll.css";
+import Scrollup from '../../Assets/Img/Scrool UP.svg'
+
 
 const Scroll = () => {
   let mybutton = document.querySelector("header");
@@ -25,12 +27,10 @@ const Scroll = () => {
 
   return (
     <div>
-      <button
-        className="scroll"
-        onclick="topFunction()"
-        id="myBtn"
-        title="Go to top"
-      ></button>
+
+      <a>
+        <img src={Scrollup} className="scroll-img scroll" onClick={topFunction()} />
+      </a>
     </div>
   );
 };
