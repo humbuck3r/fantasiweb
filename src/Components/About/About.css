@@ -117,7 +117,7 @@
 
 @media (min-width: 1024px) {
     .about {
-        margin-top: 75px;
+        
         display: flex;
         justify-content: center;
     }
