@@ -15,7 +15,6 @@ function HeadNav() {
   
   return (
     <header>
-      
     <Navbar bg="light" expand="lg" className="nav-bar fixed-top" id="nav">
     
         <Navbar.Brand href="#home">

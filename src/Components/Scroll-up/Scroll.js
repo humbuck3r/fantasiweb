@@ -2,7 +2,7 @@ import React from "react";
 import "./Scroll.css";
 
 const Scroll = () => {
-  let mybutton = document.getElementById("myBtn");
+  let mybutton = document.querySelector("header");
   window.onscroll = function () {
     scrollFunction();
   };
