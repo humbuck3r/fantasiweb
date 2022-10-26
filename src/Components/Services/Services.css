@@ -97,6 +97,7 @@
 /*responsive*/
 
 @media (min-width: 424px) {
+  
   .title-serv {
     font-size: 38px;
   }
@@ -122,6 +123,9 @@
 
 
 @media (min-width: 767px) {
+
+  
+
   .title-serv {
     font-size: 44px;
   }

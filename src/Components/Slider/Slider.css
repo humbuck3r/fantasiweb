@@ -17,6 +17,15 @@
     responsive
 */
 
+
+@media (min-width: 767px){
+    .slide{
+        height: 460;
+    }
+    .img{
+        height: 68vh;
+    }
+}
  
 @media (min-width: 1024px) {
     .slide{
