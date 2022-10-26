@@ -60,9 +60,10 @@ header.abajo .logo{
 .navs-title {
   font-style: normal;
   font-weight: 900;
-  font-size: 14px;
+  font-size: 20px;
   line-height: 42px;
-  color: #f29400;
+  margin-left: 10px;
+  color: #fff;
 }
 .navs-title:hover {
   color: #383838;
