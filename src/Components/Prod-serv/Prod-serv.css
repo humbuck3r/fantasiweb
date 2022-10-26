@@ -14,7 +14,7 @@
   height: auto;
   width: 100%;
   left: 0px;
-  top: -50px;
+  top: -61px;
   z-index: 1;
 }
 
@@ -23,7 +23,7 @@
   height: auto;
   width: 100%;
   left: 0px;
-  top: 2095px;
+  top: 1296px;
   z-index: -1;
 }
 
@@ -47,7 +47,7 @@
   }
   
   .prodbot{
-    top: 2333px;
+    top: 1528px;
   }
 }
 
@@ -65,7 +65,7 @@
     top: -120px;
   }
   .prodbot{
-    top: 1900px;
+    top: 1497px;
   }
   
 }
@@ -74,7 +74,7 @@
     top: -258px;
   }
   .prodbot{
-    top: 1370px;
+    top: 1486px;
   }
 }
 @media (min-width: 1800px) {

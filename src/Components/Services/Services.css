@@ -25,51 +25,48 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-evenly;
   font-family: "Poppins";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 12px;
   z-index: 1;
+  padding: 1rem;
 }
 
 .card {
-  width: 243px;
-  height: 250px;
+  width: 143px;
+  height: 150px;
   border: 1px solid #f5f5f5;
   box-shadow: 5px 7px 5px rgba(0, 0, 0, 0.1);
   border-radius: 11px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 2rem;
-  margin-bottom: 2rem;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
   
 }
 .card:hover{
     scale: (1.1);
 }
 .wsp-img {
-  color: #f08a1d;
-  height: 40px;
-  width: 40px;
+  height: 30px;
+  width: 30px;
 }
 
 .cake-img {
-  color: #f08a1d;
-  height: 50px;
-  width: 40px;
+  height: 40px;
+  width: 30px;
 }
 
 .buy-img {
-  color: #f08a1d;
-  height: 35px;
-  width: 58px;
+  height: 25px;
+  width: 38px;
 }
 
 .delivery-img {
-  color: #f08a1d;
-  height: 37px;
-  width: 57px;
+  height: 27px;
+  width: 37px;
 }
 
 .btn-serv {
@@ -80,7 +77,8 @@
   border: transparent;
   border-radius: 31px;
   text-align: center;
-  margin: 1rem;
+  
+  
 }
 
 .btn-serv:hover {
@@ -93,27 +91,33 @@
   font-weight: 600;
   line-height: 38px;
   color: #fff;
+  letter-spacing: 1px;
 }
 
 /*responsive*/
 
 @media (min-width: 424px) {
   .title-serv {
-    font-size: 34px;
+    font-size: 38px;
   }
   .text-serv {
-    font-size: 20px;
-    margin: 0rem 2rem 4rem 2rem;  
+    font-size: 22px;
+    margin: 0rem 2rem 2rem 2rem;  
   }
-  
   .cards-serv {
-    font-size: 18px;
+    font-size: 16px;
+    padding: 1rem;
   }
   
   .card {
-    width: 273px;
-    height: 280px;
+    width: 183px;
+    height: 190px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    
   }
+
+  
 }
 
 
@@ -129,9 +133,11 @@
   .cards-serv {
     justify-content: space-evenly;    
     font-size: 18px;
-    
-  }
-  
+    }
+    .card {
+      width: 273px;
+      height: 280px;
+    }
   
   .wsp-img {
     height: 50px;
@@ -167,8 +173,70 @@
 
 @media (min-width: 1024px) {
   .serv{padding-top: 100px;}
+
+  .title-serv {
+    font-size: 48px;
+  }
+  .text-serv {
+    font-size: 26px;
+    margin-bottom: 5%;  
+  }
+  
+  .cards-serv {
+    justify-content: space-evenly;    
+    font-size: 16px;
+    }
+    .card {
+      width: 233px;
+      height: 250px;
+      padding: 0.5rem;
+    }
+  
+  .btn-serv {
+    height: 48px;
+    width: 225px;
+    margin-top: 5%;
+  }
+  
+  .btn-serv > h3 {
+    font-size: 18px;
+    line-height: 46px;
+  }
 }
 
+@media (min-width: 1440px) {
+  .serv{padding-top: 100px;}
+
+  .title-serv {
+    font-size: 56px;
+  }
+  .text-serv {
+    font-size: 30px;
+    margin-bottom: 5%;  
+  }
+  
+  .cards-serv {
+    justify-content: space-evenly;    
+    font-size: 20px;
+    }
+    .card {
+      width: 283px;
+      height: 300px;
+      padding: 1rem;
+    }
+  
+  .btn-serv {
+    height: 60px;
+    width: 285px;
+    margin-top: 5%;
+  }
+  
+  .btn-serv > h3 {
+    font-size: 22px;
+    line-height: 48px;
+  }
+  
+}
 
 
 @media (min-width: 1800px) {
