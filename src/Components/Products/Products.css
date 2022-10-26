@@ -13,8 +13,7 @@
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  padding: 0.9rem;
-  margin-top: 1rem;
+  padding: 1rem;
   
 }
 .carousel-control-prev {
@@ -79,13 +78,14 @@
   .subcontainer-prod{
       font-size: 22px;
       text-align: left;
-      
+      margin-left: 1rem;
+      margin-top: 1rem;
   
   }
   .btn-prod {
     height: 48px;
     width: 255px;
-    margin-top: 5%;
+    margin-top: 2rem;
   }
   
   .btn-prod > h2 {
@@ -106,7 +106,7 @@
   }
    .content-prod > p {
     font-size: larger;
-    width: 70%;
+    width: 40%;
     text-align: left; 
   }
 
@@ -119,9 +119,17 @@
   .carousel-control-next {
     display: none;
   }
-  .subcontainer-prod {
+  .title-prod{
+    font-size: 52px;
+    margin: 4rem 0rem 2rem;
+    
+}
+.subcontainer-prod{
+    font-size: 26px;
+    text-align: left;
     width: 50%;
-  }
+}
+  
   .img-prod {
     height: 427px;
     width: 470px !important;
@@ -133,8 +141,17 @@
   .carousel-cont {
     width: 36%;
   }
+  
   .btn-prod {
+    height: 60px;
+    width: 290px;
     margin-top: 50px;
+    
+  }
+  
+  .btn-prod > h2 {
+    font-size: 20px;
+    line-height: 48px;
   }
 }
 

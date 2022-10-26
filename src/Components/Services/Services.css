@@ -129,9 +129,11 @@
   .cards-serv {
     justify-content: space-evenly;    
     font-size: 18px;
-    
-  }
-  
+    }
+    .card {
+      width: 273px;
+      height: 280px;
+    }
   
   .wsp-img {
     height: 50px;
@@ -167,8 +169,70 @@
 
 @media (min-width: 1024px) {
   .serv{padding-top: 100px;}
+
+  .title-serv {
+    font-size: 48px;
+  }
+  .text-serv {
+    font-size: 26px;
+    margin-bottom: 5%;  
+  }
+  
+  .cards-serv {
+    justify-content: space-evenly;    
+    font-size: 16px;
+    }
+    .card {
+      width: 233px;
+      height: 250px;
+      padding: 0.5rem;
+    }
+  
+  .btn-serv {
+    height: 48px;
+    width: 225px;
+    margin-top: 5%;
+  }
+  
+  .btn-serv > h3 {
+    font-size: 18px;
+    line-height: 46px;
+  }
 }
 
+@media (min-width: 1440px) {
+  .serv{padding-top: 100px;}
+
+  .title-serv {
+    font-size: 56px;
+  }
+  .text-serv {
+    font-size: 30px;
+    margin-bottom: 5%;  
+  }
+  
+  .cards-serv {
+    justify-content: space-evenly;    
+    font-size: 20px;
+    }
+    .card {
+      width: 283px;
+      height: 300px;
+      padding: 1rem;
+    }
+  
+  .btn-serv {
+    height: 60px;
+    width: 285px;
+    margin-top: 5%;
+  }
+  
+  .btn-serv > h3 {
+    font-size: 22px;
+    line-height: 48px;
+  }
+  
+}
 
 
 @media (min-width: 1800px) {

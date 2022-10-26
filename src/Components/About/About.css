@@ -65,10 +65,20 @@
 
 
 /* Responsive*/
+
+@media (min-width: 374px){
+    .title-about{
+       
+        margin-top: 32%;       
+    }
+    
+    
+}
+
 @media (min-width: 424px){
     .title-about{
         font-size: 34px;
-        margin-top: 32%;       
+        margin-top: 15%;       
     }
     
     .text-about{
@@ -115,22 +125,55 @@
 
 @media (min-width: 1024px){
     .about{
-        margin-top: 40px;
+        margin-top: 75px;
         display: flex;
         justify-content: center;
+    }
+    .title-about{
+        font-size: 48px;
+             
     }
     .text-about{
         text-align: justify;
         height: 150px;
+        padding: 1rem;
         
     }
+    .btn-about {
+        margin-top: 5rem;
+        
+      }
 }
 @media (min-width: 1440px){
     .about{
         margin-top: 0px;
+        height: 800px;
+    }
+    .title-about{
+        font-size: 52px;
+        margin-top: 30%;
+             
     }
     .text-about{
         text-align: left;
+        font-size: 28px;
+    }
+    .btn-about {
+        height: 60px;
+        width: 350px;
+        margin-top: 40%;
+        
+      }
+      
+      .btn-about > h2 {
+        font-size: 20px;
+        line-height: 48px;
+        margin-right: 0rem;
+        
+      }
+      .btn-icono{
+        width: 22px;
+        height: 28px;
     }
 }
 @media (min-width: 1920px){
