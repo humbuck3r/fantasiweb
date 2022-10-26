@@ -12,7 +12,7 @@ const Footer = () => {
     <div className='foot'>
             <img src={logo} className="logo-foot" alt=''/>
             <div className='linea'></div>
-             <div>
+             <div className='social'>
                 <a alt="instagram" href="https://www.instagram.com/fantasicotillon/">
                     <img src={instagram} className="icon-ig" alt=''/>
                 </a>
@@ -22,6 +22,10 @@ const Footer = () => {
                  <a alt="instagram" href="https://wa.link/qb2hf3">
                     <img src={whatsapp} className="icon-wsp" alt=''/>
                 </a>
+                <div className='enlace'>
+                <p>Powered by</p> 
+                <a href="https://linktr.ee/estudioeme">Emestudio</a>
+                </div>
              </div>
     </div>
     );

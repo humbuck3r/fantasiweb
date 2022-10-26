@@ -14,7 +14,7 @@
   height: auto;
   width: 100%;
   left: 0px;
-  top: -50px;
+  top: -61px;
   z-index: 1;
 }
 
@@ -23,7 +23,7 @@
   height: auto;
   width: 100%;
   left: 0px;
-  top: 2095px;
+  top: 1296px;
   z-index: -1;
 }
 
@@ -47,7 +47,7 @@
   }
   
   .prodbot{
-    top: 2376px;
+    top: 1528px;
   }
 }
 
