@@ -61,13 +61,15 @@
    
     .title-prod{
         font-size: 38px;
-        margin: 4rem 0rem 2rem;
+        
         
     }
     .subcontainer-prod{
         font-size: 20px;
         text-align: left;
-        margin-top: 42%;
+        margin-top: 38%;
+        padding: 0.5rem;
+        
     
     }
     
@@ -83,7 +85,7 @@
       font-size: 22px;
       text-align: left;
       margin-left: 1rem;
-      margin-top: 65%;
+      
   
   }
   .btn-prod {
