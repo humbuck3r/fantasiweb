@@ -12,10 +12,10 @@
 .title-about {
     color: #fff;
     font-weight: 800;
-    font-family: "Baloo Da 2";
-    margin-bottom: 2.5%;
-    font-size: 28px;
-    margin-top: 20%;
+    font-family: 'Baloo Da 2';
+    margin-bottom: 1px;
+    font-size: 30px;
+    margin-top: 20%;       
 }
 
 .text-about {
@@ -25,12 +25,14 @@
     line-height: 1.6rem;
     font-size: 16px;
     text-align: left;
-    padding: 1rem;
+    padding: 0.8rem;  
+    letter-spacing: 0.2px;
+    
 }
 
 .btn-about {
     height: 46px;
-    width: 255px;
+    width: 275px;
     background: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
     box-shadow: 4px 4px 9px rgba(0, 0, 0, 0.25);
     border: transparent;
@@ -47,17 +49,19 @@
     font-size: 14px;
     font-family: "Poppins";
     font-weight: 600;
-    margin-right: 0.6rem;
     color: #fff;
     line-height: 45px;
+    letter-spacing: 1px;
+    margin-right: 0.3rem;
+    
 }
 
 .btn-icono {
     width: 16px;
     height: 22px;
     float: left;
-    margin-left: 0.8rem;
-    margin-top: 0.7rem;
+    margin: 0.6rem;
+   
 }
 
 /* Responsive*/
@@ -68,10 +72,10 @@
     }
 }
 
-@media (min-width: 424px) {
-    .title-about {
-        font-size: 34px;
-        margin-top: 15%;
+@media (min-width: 424px){
+    .title-about{
+        font-size: 38px;
+        margin-top: 15%;       
     }
 
     .text-about {

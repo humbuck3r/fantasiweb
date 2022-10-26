@@ -13,7 +13,9 @@
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  padding: 1rem;
+  padding: 0.8rem;
+  letter-spacing: 0.2px;
+  margin-top: 30%;
   
 }
 .carousel-control-prev {
@@ -49,6 +51,7 @@
   font-weight: 600;
   line-height: 38px;
   color: #fff;
+  letter-spacing: 1px;
 }
 
 /*Responsive */
@@ -57,13 +60,14 @@
 @media (min-width: 424px) {
    
     .title-prod{
-        font-size: 34px;
+        font-size: 38px;
         margin: 4rem 0rem 2rem;
         
     }
     .subcontainer-prod{
         font-size: 20px;
         text-align: left;
+        margin-top: 42%;
     
     }
     

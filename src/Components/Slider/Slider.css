@@ -1,10 +1,12 @@
 .slide{
     z-index: -1;
+    height: 260px;
    
 }
 
 .img{
-    height: auto;
+    height: 34vh;
+    width: 100%;
 }
 .carousel-indicators{
     display: none;
