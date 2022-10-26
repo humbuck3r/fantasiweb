@@ -4,7 +4,7 @@ import Slider from './Components/Slider/Slider';
 import Footer from './Components/Footer/Footer';
 import ProdServ from './Components/Prod-serv/Prod-serv';
 import About from './Components/About/About';
-import Scroll from './Components/Scroll-up/Scroll';
+
 
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <ProdServ/>
       <About/>
       <Footer/>
-      <Scroll/>
+      
     </div>
   );
 }
