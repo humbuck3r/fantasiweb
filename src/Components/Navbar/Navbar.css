@@ -60,7 +60,7 @@ header.abajo .logo{
 .navs-title {
   font-style: normal;
   font-weight: 900;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 42px;
   margin-left: 10px;
   color: #fff;
@@ -95,10 +95,6 @@ header.abajo .logo{
 
 /*Responsive */
 
-@media (min-width: 375px) {
- 
-}
-
 @media (min-width: 768px) {
  
   .logo {
@@ -130,10 +126,21 @@ header.abajo .logo{
     flex-basis: auto;
     justify-content: center;
   }
+  .navs-title{
+    font-size: 14px;
+  }
 }
 @media (min-width: 1440px) {
   .abajo,
   .nav-bar {
     background-color: red;
+  }
+  .navs-title{
+    font-size: 16px;
+  }
+}
+@media (min-width: 1920px) {
+  .navs-title{
+    font-size: 20px;
   }
 }
