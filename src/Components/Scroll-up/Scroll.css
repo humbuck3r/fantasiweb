@@ -6,8 +6,14 @@
     height: 70px;
     position: absolute;
     right: 40px;
-    top: 3410px;
+    top: 3540px;
 }
+
+.scroll-img:hover{
+    transform: scale(1.1);
+}
+
+
 
 @media (min-width: 1920px){
     .scroll-img{
