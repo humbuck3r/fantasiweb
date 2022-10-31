@@ -105,15 +105,29 @@
   .container-prod {
     display: flex;
     flex-direction: row;
+    height: 500px;
   }
   .carousel-cont {
     width: 100%;
-    margin-left: 120px;
+    
   }
    .content-prod > p {
     font-size: larger;
-    width: 40%;
     text-align: left; 
+  }
+  .img-prod{
+    height: 427px;
+    width: 470px !important;
+    margin-left: 2rem;
+  }
+  .subcontainer-prod{
+    margin-top: 0%;
+    padding-right: 1.5rem;
+    height: 50%;
+
+  }
+  .btn-prod {
+    margin-top: 0rem;
   }
 
 }

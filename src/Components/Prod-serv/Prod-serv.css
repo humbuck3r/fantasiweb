@@ -65,10 +65,13 @@
 
 @media (min-width: 1020px) {
   .prodhead{
-    top: -120px;
+    top: -187px;
   }
   .prodbot{
-    top: 1497px;
+    top: 1204px;
+  }
+  .prodserv {
+    margin-top: 85px;
   }
   
 }
