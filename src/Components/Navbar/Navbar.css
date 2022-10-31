@@ -81,7 +81,9 @@ header.abajo .logo{
   border-radius: 31px;
   margin-right: 2rem;
   display: none;
-  
+  animation-name: batir;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
 }
 .btn-nav:hover {
   transform: scale(1.1);

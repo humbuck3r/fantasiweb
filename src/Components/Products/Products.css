@@ -42,11 +42,19 @@
   border-radius: 31px;
   text-align: center;
   animation-name: batir;
+  animation-duration: 1000ms;
+  animation-iteration-count: infinite;
 }
 
 @keyframes batir {
-  0% {transform: rotate(10deg);}
-  25% {transform: rotate(-10deg);}
+  0% {transform: rotate(5deg);}
+  25% {transform: rotate(-5deg);}
+  50% {transform: rotate(5deg);}
+  65% {transform: rotate(-5deg);}
+  75% {transform: rotate(5deg);}
+  85% {transform: rotate(-5deg);}
+
+
 }
 
 .btn-prod:hover {
