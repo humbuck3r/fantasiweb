@@ -41,7 +41,14 @@
   border: transparent;
   border-radius: 31px;
   text-align: center;
+  animation-name: batir;
 }
+
+@keyframes batir {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+}
+
 .btn-prod:hover {
   transform: scale(1.1);
 }
@@ -53,7 +60,11 @@
   color: #fff;
   letter-spacing: 1px;
 }
-
+.btn-prod:active{
+  color: linear-gradient(90deg, #fe8c00 0%, #f83600 100%);
+  border: 3px solid #fe8c00;
+  background: transparent;
+}
 /*Responsive */
 
  
@@ -177,7 +188,7 @@
 
 @media (min-width: 1800px) {
   .title-prod {
-    margin-top: 250px;
+    margin-top: 100px;
     margin-bottom: 100px;
   }
 
@@ -205,6 +216,7 @@
     font-size: larger;
   }
   .btn-prod {
-    margin-top: 50px;
+    position: relative;
+    bottom: 100px;
   }
 }

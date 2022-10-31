@@ -7,7 +7,7 @@ const Products = () => {
     <>
      
       
-      <h2 className="title-prod">NUESTROS PRODUCTOS</h2>
+      <h2 className="title-prod" id="products">NUESTROS PRODUCTOS</h2>
       <div className="container-prod">
       <div className="carousel-cont">  
           <Carousel variant="dark" className="slide-prod ">
@@ -34,7 +34,7 @@ const Products = () => {
             </Carousel.Item>
           </Carousel>
           </div>
-        <div className="subcontainer-prod">
+        <div className="subcontainer-prod" data-aos="zoom-in">
             <p>
               Contamos con un amplio surtido en productos, abarcando carnaval,
               cotillón infantil, materias primas y accesorios de repostería,
@@ -44,9 +44,11 @@ const Products = () => {
             </p>
         </div>
       </div>
+      <a href="https://api.whatsapp.com/send?phone=542612122794">
       <button className="btn-prod">
         <h2>¡Quiero una Cotización!</h2>
       </button>
+      </a>
     </>
   );
 };

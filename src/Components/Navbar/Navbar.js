@@ -31,16 +31,17 @@ function HeadNav() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto-navs">
             <Nav.Link href="#home"><h2 className="navs-title">Inicio</h2></Nav.Link>
-            <Nav.Link href="#link"><h2 className="navs-title">Servicios</h2></Nav.Link>
-            <Nav.Link href="#link"><h2 className="navs-title">Productos</h2></Nav.Link>
-            <Nav.Link href="#link"><h2 className="navs-title">Nosotros</h2></Nav.Link>
-            <Nav.Link href="#link"><h2 className="navs-title">Contacto</h2></Nav.Link>
+            <Nav.Link href="#services"><h2 className="navs-title">Servicios</h2></Nav.Link>
+            <Nav.Link href="#products"><h2 className="navs-title">Productos</h2></Nav.Link>
+            <Nav.Link href="#about"><h2 className="navs-title">Nosotros</h2></Nav.Link>
+            <Nav.Link href="#contact"><h2 className="navs-title">Contacto</h2></Nav.Link>
           </Nav>
         </Navbar.Collapse>
+        <a href="https://api.whatsapp.com/send?phone=542612122794">
         <button className="btn-nav">
           <h2>Contacto</h2>
         </button>
-      
+        </a>
     </Navbar>
     </header>
   );

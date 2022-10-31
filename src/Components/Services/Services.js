@@ -19,31 +19,33 @@ const Services = () => {
   
   
   return (
-      <div className="serv ">
+      <div className="serv " id="services">
         <h1 className='title-serv'>NUESTROS SERVICIOS</h1>
         <h2 className='text-serv' >¡Tu cumpleaños o evento como a vos te guste!</h2>
         <div  className="cards-serv">
-          <div className="card" >
+          <div className="card" data-aos="flip-right" >
             <img src={Wsp} className="wsp-img" alt='' />
             <p>Atención inmediata por WhatsApp</p>
           </div>
-          <div className="card" >
+          <div className="card" data-aos="flip-right" >
             <img src={Cake} className="cake-img" alt=''/>
             <p>¡Personalizá todo lo que necesites!</p>
           </div>
-          <div className="card" >
+          <div className="card"data-aos="flip-right" >
             <img src={Buy} className="buy-img" alt=''/>
             <p>¡Pagá como quieras desde donde estés!</p>
           </div>
-          <div className="card" >
+          <div className="card"data-aos="flip-right" >
             <img src={Delivery} className="delivery-img" alt=''/>
             <p>Te llevamos el pedido a tu hogar</p>
           </div>
         </div>
         <div>
+          <a href="https://api.whatsapp.com/send?phone=542612122794">
        <button className="btn-serv">
         <h3>¡Hablemos Ahora!</h3>
        </button>
+       </a>
        </div>
       </div>
       
