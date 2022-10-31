@@ -1,5 +1,6 @@
 a {
   cursor: pointer;
+  text-decoration: none;
 }
 .nav-bar {
   z-index: 1000;
@@ -9,7 +10,6 @@ a {
   text-transform: uppercase;
   justify-content: center;
   height: auto;
-  
 }
 /*animacion navbar*/
 
@@ -81,6 +81,7 @@ header.abajo .logo{
   border-radius: 31px;
   margin-right: 2rem;
   display: none;
+  
 }
 .btn-nav:hover {
   transform: scale(1.1);
@@ -99,6 +100,7 @@ header.abajo .logo{
   line-height: 40px;
   color: #ffffff;
   text-align: center;
+    
 }
 
 /*Responsive */

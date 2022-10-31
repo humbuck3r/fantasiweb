@@ -41,7 +41,14 @@
   border: transparent;
   border-radius: 31px;
   text-align: center;
+  animation-name: batir;
 }
+
+@keyframes batir {
+  0% {transform: rotate(10deg);}
+  25% {transform: rotate(-10deg);}
+}
+
 .btn-prod:hover {
   transform: scale(1.1);
 }

@@ -1,13 +1,11 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./Slider.css";
-import Slider1 from "../../Assets/Img/slider1.png"
 import Slider2 from "../../Assets/Img/Slider2.png"
-import Slider3 from "../../Assets/Img/Slider3.png"
 
 
 function Slider() {
   return (
-    <Carousel variant="dark" className="slide">
+    <Carousel variant="dark" className="slide" id="home">
       <Carousel.Item>
         <img
           className="d-block w-100 img fluid"

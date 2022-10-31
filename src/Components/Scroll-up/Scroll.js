@@ -26,9 +26,9 @@ const Scroll = () => {
   }
 
   return (
-    <div>
+    <div  >
 
-      <a>
+      <a >
         <img src={Scrollup} className="scroll-img scroll" onClick={topFunction()} />
       </a>
     </div>

@@ -9,7 +9,7 @@ import whatsapp from '../../Assets/Img/wsp-img2.png'
 
 const Footer = () => {
     return (
-    <div className='foot'>
+    <div className='foot' id='contact'>
             <img src={logo} className="logo-foot" alt=''/>
             <div className='linea'></div>
              <div className='social'>
