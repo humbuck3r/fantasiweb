@@ -1,35 +1,20 @@
 import React from "react";
 import "./Scroll.css";
 import Scrollup from '../../Assets/Img/Scrool UP.svg'
-
+import { useEffect } from "react";
 
 const Scroll = () => {
-  let mybutton = document.querySelector("header");
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20
-    ) {
-      mybutton.style.display = "block";
-    } else {
-      mybutton.style.display = "none";
-    }
-  }
-
-  function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-  }
-
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
+  }, []);
   return (
     <div  >
 
-      <a >
-        <img src={Scrollup} className="scroll-img scroll" onClick={topFunction()} />
+      <a href="home">
+        <img src={Scrollup} className="scroll-img scroll" alt="" onClick={()=>{
+          window.scrollTo({top:0, left:0, behavior: 'smooth'});
+        }} />
       </a>
     </div>
   );
