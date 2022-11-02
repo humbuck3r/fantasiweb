@@ -96,6 +96,10 @@ header.abajo .logo{
   border: 3px solid #fe8c00;
   background: transparent;
 }
+.btn-nav:active >h2{
+  color: #fe8c00;
+  line-height: 30px;
+}
 .btn-nav > h2 {
   font-family: "Poppins";
   text-transform: uppercase;
