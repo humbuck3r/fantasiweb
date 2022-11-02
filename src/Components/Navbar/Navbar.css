@@ -11,6 +11,10 @@ a {
   justify-content: center;
   height: auto;
 }
+
+header .navs-title{
+  letter-spacing: 1.2px  !important;
+}
 /*animacion navbar*/
 
 header{
@@ -26,6 +30,11 @@ header.abajo .nav-bar {
 }
 header.abajo .navs-title{
   color: black;
+  
+}
+
+header.abajo .navs-title:hover{
+  transform: scale(1.1);
 }
 
 header.abajo .share{
