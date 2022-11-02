@@ -41,9 +41,7 @@
   border: transparent;
   border-radius: 31px;
   text-align: center;
-  animation-name: batir;
-  animation-duration: 1000ms;
-  animation-iteration-count: infinite;
+  
 }
 
 @keyframes batir {
