@@ -75,6 +75,11 @@
   }
   
 }
+@media(min-width: 1366px){
+  .prodhead{
+    top: -238px;
+  }
+}
 @media (min-width: 1440px) {
   .prodhead{
     top: -258px;
