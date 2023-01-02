@@ -31,15 +31,27 @@
 
 
 
-@media (min-width: 370px) {
+@media (min-width: 320px) {
   .prodhead{
-    bottom: 100px;
+    top: -32px;
   }
   .prodbot{
-    top: 1290px;
+    top: 1360px;
     z-index: -1;
   }
 }
+
+@media (min-width: 370px) {
+  .prodhead{
+    top: -40px;
+  }
+  .prodbot{
+    top: 1320px;
+    z-index: -1;
+  }
+}
+
+
 
 @media (min-width: 425px) {
   .prodhead{
@@ -56,7 +68,7 @@
     top: -139px;
   }
   .prodbot{
-    top: 1981px;
+    top: 1781px;
   }
   .prodserv {
     margin-top: 250px;
