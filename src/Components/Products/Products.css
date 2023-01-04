@@ -105,9 +105,15 @@
       font-size: 22px;
       text-align: left;
       margin-left: 1rem;
-      
-  
+      height: 500px;  
   }
+ 
+  .subcontainer-prod > p{
+    position: absolute;
+    top: 290px;
+  }
+
+
   .btn-prod {
     height: 48px;
     width: 255px;

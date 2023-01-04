@@ -127,7 +127,7 @@ const Products = () => {
           
           </div>
         <div className="subcontainer-prod" data-aos="zoom-in">
-            <p>
+            <p className="subcontainer-text">
               Contamos con un amplio surtido en productos, abarcando carnaval,
               cotillón infantil, materias primas y accesorios de repostería,
               golosinas, manualidades, disfraces, descartables y mucho más.

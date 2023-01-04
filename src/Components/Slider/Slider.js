@@ -1,6 +1,6 @@
 import Carousel from "react-bootstrap/Carousel";
 import "./Slider.css";
-import Slider2 from "../../Assets/Img/Slider2.png"
+import Slider2 from "../../Assets/Img/1.jpg"
 
 
 function Slider() {
